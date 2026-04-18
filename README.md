@@ -29,3 +29,12 @@ The following table illustrates the performance benchmarks at 1080p resolution. 
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
+
+## 🧠 Pre-trained Models
+To run the production applications, download the optimized engines from the [v1.0.0 Release](https://github.com/achuakh/EYEKEY/releases/tag/v1.0.0) and place them in their respective source folders.
+
+| Model File | Resolution | Target Folder |
+| :--- | :--- | :--- |
+| `rvm_mobilenetv3.pth` | 1080p | `/src/RVM/` |
+| `rvm_a6000.engine` | 1080p | `/src/RVM_Optimised/` |
+| `yolo11x-seg-1024.engine` | 1024px | `/src/YOLO11-Seg/` |
