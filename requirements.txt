@@ -1,0 +1,26 @@
+```text
+# REQUIRED: Python 3.10
+# ---------------------------------------------------------
+# CORE DEEP LEARNING
+torch
+torchvision
+numpy
+
+# COMPUTER VISION & NDI PROTOCOL
+opencv-python
+NDIlib  # Binary-linked for Python 3.10
+Pillow
+
+# UI & APPLICATION FRAMEWORK
+PyQt6
+
+# ARCHITECTURES & OPTIMIZATION
+ultralytics
+onnx
+onnxruntime
+tensorrt
+
+# UTILITIES
+ipython
+tqdm
+glob2

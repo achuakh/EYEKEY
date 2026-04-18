@@ -1,0 +1,28 @@
+# Python Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# DATASET (Ignore local copies; hosted on Google Drive)
+dataset/
+Capture/output/
+
+# MODEL ARTIFACTS
+# These should be linked via Git LFS or external download
+*.pth
+*.onnx
+*.onnx.data
+*.engine
+
+# LOGS & TEMPORARY FILES
+models/
+runs/
+*.log
